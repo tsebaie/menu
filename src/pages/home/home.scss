@@ -1,3 +1,26 @@
-page-home {
-
-}
+page-report {
+    
+    .body{
+    font-size: 1.8em;
+    background-color: rgb(58, 140, 240);
+    background-image: url('../../assets/imgs/rolli.jpg');
+    background-size: cover;
+    
+    
+    }
+    
+    h1{
+        text-align: center;
+        padding-top: 5%;
+        // color: #8A4F2B;
+        color: cornsilk;
+    
+        
+    }
+    
+    .foot{
+        font-size: 0.7em;
+        margin-top: 135%;
+        color: darkgreen;
+    }
+    }

@@ -1,0 +1,24 @@
+<ion-content class="body">
+    <div class="header">
+      ROLEX APP
+    </div>
+      <ion-list  >
+    
+        <div class="d" >
+        <!-- <img src="../../assets/imgs/Business.jpg" alt=""> -->
+          <ion-item class="item">
+            <ion-label floating style="color: white">Name</ion-label>
+            <ion-input type="text" #Name></ion-input>
+          </ion-item>
+        
+          <ion-item>
+            <ion-label floating style="color: white">Surname</ion-label>
+            <ion-input type="text" #Surname></ion-input>
+          </ion-item>
+        </div>
+
+<ion-content padding>
+
+  <button class="btn"  ion-button color ="primary" ion-button outline (click)="submit(Name.value,Surname.value)">Save</button>
+
+</ion-content>

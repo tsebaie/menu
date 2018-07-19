@@ -1,0 +1,33 @@
+page-home {
+    .body{
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.5)), url('../../assets/imgs/watch.jpg');
+        background-size: cover;
+        
+    }
+
+    .header{
+        text-align: center;
+        font-size: xx-large;
+        color: rgba(180, 77, 77, 0.781);
+        font-weight: bolder;
+        padding-top: 5%;
+    }
+
+    .item{
+        background: transparent;
+        color: rgba(255, 217, 0, 0.637);
+
+    }
+    .btn{
+        margin-left: 38%;
+        margin-top: 55%;
+        background-color: rgba(95, 3, 3, 0.603);
+        font-size: 1.3em;
+    }
+
+    .d{
+        margin-top: 40%;
+    }
+
+}
